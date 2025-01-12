@@ -1,0 +1,136 @@
+body {
+  margin: 0%;
+  padding:0%;
+ 
+
+}
+
+.navbar{
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to right,
+  rgb(6, 36, 6),
+  rgb(17, 113, 17),
+  rgb(35, 224, 35));
+  height: auto;
+  font-size: 25px;
+  
+
+}
+
+.bg-image {
+  margin: 0%;
+  background-image: url('./img/bigbasket\ img.jpg');
+  background-size: cover; 
+ 
+  justify-content:center;
+
+  background-position: center;   
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%; 
+
+
+
+}
+
+
+.text-light-green{
+  color: rgb(91, 252, 91);
+}
+
+.card-header {
+  overflow: hidden;
+}
+
+
+.card img {
+  transition: all 0.5s;
+ 
+}
+
+.card:hover img {
+
+  transform: scale(1.2, 1.2);
+} 
+
+
+
+
+
+/* update buttons css */
+
+.updatebotton{
+background: linear-gradient(to right,
+  rgb(61, 32, 61),
+  rgb(114, 57, 131),
+  rgb(186, 4, 222));
+
+
+}
+
+.deletebutton{
+
+background: linear-gradient(to right,
+rgba(52, 21, 21, 0.792),
+rgb(82, 26, 16),
+rgb(255, 4, 4));
+
+}
+
+.createbutton{
+
+background: linear-gradient(to right,
+rgb(7, 65, 47),
+rgb(17, 113, 84),
+rgb(3, 255, 142));
+
+
+}
+
+
+
+
+
+
+
+.cardAlgin{
+
+display: flex;
+justify-content: space-around;
+
+
+/* background-color: blue; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
